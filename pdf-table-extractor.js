@@ -218,6 +218,7 @@ pdfTableExtractorParse = function(doc, options) {
               var current_x, current_y;
               var edges = [];
               var line_max_width = 2;
+              var lineWidth = null;
 
               const maxEdgesPerPage = options.maxEdgesPerPage || Number.MAX_VALUE;
 
